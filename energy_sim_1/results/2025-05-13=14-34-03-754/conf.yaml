@@ -1,0 +1,39 @@
+definitions:
+  edge-parameters:
+    categorical:
+      relation:
+      - friend
+  name: custom
+  network-parameters:
+    current_day: -1
+    degree_outside: 10
+    temperature_set: 100
+  node-parameters:
+    categorical:
+      heater_preference:
+      - hot
+      - warm
+      - neutral
+      - cool
+      - cold
+    numerical:
+      age:
+      - 18
+      - 65
+      degree_choice:
+      - 100
+      - 101
+      family-request:
+      - 100
+      - 101
+      happiness_level:
+      - 100
+      - 101
+  nodetypes:
+    Family_Rep:
+      random-with-weight:
+        initial-weight: 1
+name: simple-energy-modeling
+structure:
+  from-library:
+    type: karate-club-graph

@@ -1,0 +1,4174 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {
+        "name": "Zachary's Karate Club",
+        "degree_outside": 10,
+        "temperature_set": 100,
+        "current_day": -1
+    },
+    "nodes": [
+        {
+            "club": "Mr. Hi",
+            "age": 36,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Joseph",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "C6": "Cautious",
+            "frugality": "Frugal",
+            "A3": "Selfish",
+            "O3": "Unemotional",
+            "N2": "Easily-angered",
+            "A4": "Uncooperative",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 0,
+            "node_type": "Family_Rep",
+            "id": 0
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 52,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Alicia",
+            "A4": "Cooperative",
+            "A3": "Selfless",
+            "O3": "Emotional",
+            "frugality": "Frugal",
+            "N2": "Easily-angered",
+            "C6": "Careless",
+            "E3": "Passive",
+            "environmentalism": "Not environmentalist",
+            "N5": "Impulsive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 1,
+            "node_type": "Family_Rep",
+            "id": 1
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 18,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cold",
+            "name": "Mario",
+            "N5": "Self-controlled",
+            "A4": "Cooperative",
+            "frugality": "Frugal",
+            "N2": "Easygoing",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "C6": "Careless",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 2,
+            "node_type": "Family_Rep",
+            "id": 2
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 60,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Melissa",
+            "C6": "Cautious",
+            "A4": "Cooperative",
+            "N5": "Self-controlled",
+            "O3": "Emotional",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "frugality": "Wasteful",
+            "N2": "Easily-angered",
+            "E3": "Passive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 3,
+            "node_type": "Family_Rep",
+            "id": 3
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 41,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cold",
+            "name": "Matthew",
+            "C6": "Cautious",
+            "O3": "Emotional",
+            "A4": "Cooperative",
+            "E3": "Assertive",
+            "N2": "Easily-angered",
+            "frugality": "Wasteful",
+            "environmentalism": "Not environmentalist",
+            "N5": "Impulsive",
+            "A3": "Selfish",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 4,
+            "node_type": "Family_Rep",
+            "id": 4
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 25,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cold",
+            "name": "Erika",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "frugality": "Frugal",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "N5": "Impulsive",
+            "N2": "Easily-angered",
+            "A4": "Uncooperative",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 5,
+            "node_type": "Family_Rep",
+            "id": 5
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 43,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "hot",
+            "name": "Miguel",
+            "A4": "Cooperative",
+            "O3": "Emotional",
+            "frugality": "Frugal",
+            "N5": "Self-controlled",
+            "A3": "Selfish",
+            "N2": "Easily-angered",
+            "C6": "Careless",
+            "E3": "Passive",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 6,
+            "node_type": "Family_Rep",
+            "id": 6
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 40,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Jonathan",
+            "O3": "Emotional",
+            "A4": "Cooperative",
+            "frugality": "Frugal",
+            "A3": "Selfless",
+            "E3": "Passive",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "environmentalism": "Not environmentalist",
+            "C6": "Careless",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 7,
+            "node_type": "Family_Rep",
+            "id": 7
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 22,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Adam",
+            "C6": "Cautious",
+            "E3": "Assertive",
+            "N5": "Self-controlled",
+            "O3": "Emotional",
+            "A4": "Uncooperative",
+            "frugality": "Wasteful",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "N2": "Easily-angered",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 8,
+            "node_type": "Family_Rep",
+            "id": 8
+        },
+        {
+            "club": "Officer",
+            "age": 35,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Tom",
+            "N5": "Self-controlled",
+            "N2": "Easygoing",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "C6": "Careless",
+            "A4": "Uncooperative",
+            "O3": "Unemotional",
+            "E3": "Passive",
+            "A3": "Selfish",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 9,
+            "node_type": "Family_Rep",
+            "id": 9
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 58,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Angel",
+            "E3": "Assertive",
+            "N2": "Easygoing",
+            "A4": "Cooperative",
+            "O3": "Emotional",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "N5": "Impulsive",
+            "A3": "Selfish",
+            "frugality": "Wasteful",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 10,
+            "node_type": "Family_Rep",
+            "id": 10
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 50,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Danielle",
+            "A4": "Cooperative",
+            "N5": "Self-controlled",
+            "frugality": "Frugal",
+            "E3": "Assertive",
+            "A3": "Selfish",
+            "O3": "Unemotional",
+            "N2": "Easily-angered",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 11,
+            "node_type": "Family_Rep",
+            "id": 11
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 53,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Richard",
+            "O3": "Emotional",
+            "frugality": "Frugal",
+            "C6": "Cautious",
+            "A4": "Cooperative",
+            "N5": "Impulsive",
+            "N2": "Easily-angered",
+            "A3": "Selfish",
+            "E3": "Passive",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 12,
+            "node_type": "Family_Rep",
+            "id": 12
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 64,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "hot",
+            "name": "Nicole",
+            "environmentalism": "Environmentalist",
+            "N5": "Self-controlled",
+            "O3": "Emotional",
+            "frugality": "Frugal",
+            "A3": "Selfish",
+            "N2": "Easily-angered",
+            "E3": "Passive",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 13,
+            "node_type": "Family_Rep",
+            "id": 13
+        },
+        {
+            "club": "Officer",
+            "age": 40,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Joe",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "N5": "Self-controlled",
+            "N2": "Easygoing",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "frugality": "Wasteful",
+            "environmentalism": "Not environmentalist",
+            "E3": "Passive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 14,
+            "node_type": "Family_Rep",
+            "id": 14
+        },
+        {
+            "club": "Officer",
+            "age": 35,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "hot",
+            "name": "Sergio",
+            "A4": "Cooperative",
+            "O3": "Emotional",
+            "C6": "Cautious",
+            "frugality": "Frugal",
+            "environmentalism": "Not environmentalist",
+            "N5": "Impulsive",
+            "A3": "Selfish",
+            "N2": "Easily-angered",
+            "E3": "Passive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 15,
+            "node_type": "Family_Rep",
+            "id": 15
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 41,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Jose",
+            "A4": "Cooperative",
+            "frugality": "Frugal",
+            "E3": "Assertive",
+            "N5": "Self-controlled",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "N2": "Easily-angered",
+            "O3": "Unemotional",
+            "C6": "Careless",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 16,
+            "node_type": "Family_Rep",
+            "id": 16
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 26,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Victoria",
+            "frugality": "Frugal",
+            "N5": "Self-controlled",
+            "environmentalism": "Environmentalist",
+            "A4": "Cooperative",
+            "N2": "Easily-angered",
+            "A3": "Selfish",
+            "C6": "Careless",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 17,
+            "node_type": "Family_Rep",
+            "id": 17
+        },
+        {
+            "club": "Officer",
+            "age": 38,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Claudia",
+            "O3": "Emotional",
+            "C6": "Cautious",
+            "A4": "Cooperative",
+            "frugality": "Frugal",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "A3": "Selfish",
+            "E3": "Passive",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 18,
+            "node_type": "Family_Rep",
+            "id": 18
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 23,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Heather",
+            "O3": "Emotional",
+            "N2": "Easygoing",
+            "A4": "Cooperative",
+            "A3": "Selfless",
+            "frugality": "Wasteful",
+            "N5": "Impulsive",
+            "environmentalism": "Not environmentalist",
+            "C6": "Careless",
+            "E3": "Passive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 19,
+            "node_type": "Family_Rep",
+            "id": 19
+        },
+        {
+            "club": "Officer",
+            "age": 26,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Jasmine",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "C6": "Cautious",
+            "A4": "Cooperative",
+            "N5": "Impulsive",
+            "frugality": "Wasteful",
+            "N2": "Easily-angered",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 20,
+            "node_type": "Family_Rep",
+            "id": 20
+        },
+        {
+            "club": "Mr. Hi",
+            "age": 36,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "hot",
+            "name": "Kyle",
+            "N5": "Self-controlled",
+            "C6": "Cautious",
+            "N2": "Easygoing",
+            "A4": "Cooperative",
+            "frugality": "Wasteful",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 21,
+            "node_type": "Family_Rep",
+            "id": 21
+        },
+        {
+            "club": "Officer",
+            "age": 29,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Aaron",
+            "C6": "Cautious",
+            "O3": "Emotional",
+            "N5": "Self-controlled",
+            "A4": "Cooperative",
+            "frugality": "Wasteful",
+            "A3": "Selfish",
+            "environmentalism": "Not environmentalist",
+            "N2": "Easily-angered",
+            "E3": "Passive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 22,
+            "node_type": "Family_Rep",
+            "id": 22
+        },
+        {
+            "club": "Officer",
+            "age": 20,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Janet",
+            "C6": "Cautious",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "N5": "Self-controlled",
+            "A3": "Selfish",
+            "frugality": "Wasteful",
+            "environmentalism": "Not environmentalist",
+            "N2": "Easily-angered",
+            "A4": "Uncooperative",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 23,
+            "node_type": "Family_Rep",
+            "id": 23
+        },
+        {
+            "club": "Officer",
+            "age": 21,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "hot",
+            "name": "Tim",
+            "N2": "Easygoing",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "O3": "Emotional",
+            "environmentalism": "Not environmentalist",
+            "C6": "Careless",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "frugality": "Wasteful",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 24,
+            "node_type": "Family_Rep",
+            "id": 24
+        },
+        {
+            "club": "Officer",
+            "age": 24,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Mike",
+            "O3": "Emotional",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "frugality": "Frugal",
+            "E3": "Passive",
+            "environmentalism": "Not environmentalist",
+            "A3": "Selfish",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 25,
+            "node_type": "Family_Rep",
+            "id": 25
+        },
+        {
+            "club": "Officer",
+            "age": 23,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Kevin",
+            "C6": "Cautious",
+            "N2": "Easygoing",
+            "O3": "Emotional",
+            "A4": "Cooperative",
+            "A3": "Selfish",
+            "environmentalism": "Not environmentalist",
+            "E3": "Passive",
+            "frugality": "Wasteful",
+            "N5": "Impulsive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 26,
+            "node_type": "Family_Rep",
+            "id": 26
+        },
+        {
+            "club": "Officer",
+            "age": 43,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "neutral",
+            "name": "Kim",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "frugality": "Frugal",
+            "environmentalism": "Environmentalist",
+            "C6": "Careless",
+            "O3": "Unemotional",
+            "A4": "Uncooperative",
+            "A3": "Selfish",
+            "E3": "Passive",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 27,
+            "node_type": "Family_Rep",
+            "id": 27
+        },
+        {
+            "club": "Officer",
+            "age": 31,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Tony",
+            "E3": "Assertive",
+            "frugality": "Frugal",
+            "C6": "Cautious",
+            "O3": "Emotional",
+            "N5": "Impulsive",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "environmentalism": "Not environmentalist",
+            "N2": "Easily-angered",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 28,
+            "node_type": "Family_Rep",
+            "id": 28
+        },
+        {
+            "club": "Officer",
+            "age": 54,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "warm",
+            "name": "Sarah",
+            "N5": "Self-controlled",
+            "C6": "Cautious",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "E3": "Passive",
+            "environmentalism": "Not environmentalist",
+            "N2": "Easily-angered",
+            "O3": "Unemotional",
+            "frugality": "Wasteful",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 29,
+            "node_type": "Family_Rep",
+            "id": 29
+        },
+        {
+            "club": "Officer",
+            "age": 28,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cold",
+            "name": "Wendy",
+            "E3": "Assertive",
+            "N2": "Easygoing",
+            "frugality": "Frugal",
+            "N5": "Self-controlled",
+            "environmentalism": "Not environmentalist",
+            "C6": "Careless",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "O3": "Unemotional",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 30,
+            "node_type": "Family_Rep",
+            "id": 30
+        },
+        {
+            "club": "Officer",
+            "age": 53,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "hot",
+            "name": "Raul",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "N2": "Easygoing",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "frugality": "Wasteful",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 31,
+            "node_type": "Family_Rep",
+            "id": 31
+        },
+        {
+            "club": "Officer",
+            "age": 20,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Karen",
+            "A4": "Cooperative",
+            "O3": "Emotional",
+            "frugality": "Frugal",
+            "E3": "Assertive",
+            "N5": "Impulsive",
+            "C6": "Careless",
+            "N2": "Easily-angered",
+            "A3": "Selfish",
+            "environmentalism": "Not environmentalist",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 32,
+            "node_type": "Family_Rep",
+            "id": 32
+        },
+        {
+            "club": "Officer",
+            "age": 50,
+            "degree_choice": 100,
+            "happiness_level": 100,
+            "family-request": 100,
+            "heater_preference": "cool",
+            "name": "Lori",
+            "A4": "Cooperative",
+            "E3": "Assertive",
+            "A3": "Selfless",
+            "O3": "Emotional",
+            "N2": "Easily-angered",
+            "environmentalism": "Not environmentalist",
+            "N5": "Impulsive",
+            "C6": "Careless",
+            "frugality": "Wasteful",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "node": 33,
+            "node_type": "Family_Rep",
+            "id": 33
+        },
+        {
+            "node": 0,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 43,
+            "node_type": "Family_Member",
+            "name": "Robert",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 34
+        },
+        {
+            "node": 1,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 32,
+            "node_type": "Family_Member",
+            "name": "Jessica",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 35
+        },
+        {
+            "node": 1,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 37,
+            "node_type": "Family_Member",
+            "name": "Matt",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 36
+        },
+        {
+            "node": 1,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 50,
+            "node_type": "Family_Member",
+            "name": "Antonio",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 37
+        },
+        {
+            "node": 2,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 60,
+            "node_type": "Family_Member",
+            "name": "Brian",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 38
+        },
+        {
+            "node": 2,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 43,
+            "node_type": "Family_Member",
+            "name": "Tony",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 39
+        },
+        {
+            "node": 2,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 40,
+            "node_type": "Family_Member",
+            "name": "Brandon",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 40
+        },
+        {
+            "node": 2,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 25,
+            "node_type": "Family_Member",
+            "name": "Luis",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 41
+        },
+        {
+            "node": 3,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 30,
+            "node_type": "Family_Member",
+            "name": "Katie",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 42
+        },
+        {
+            "node": 4,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 48,
+            "node_type": "Family_Member",
+            "name": "Paul",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 43
+        },
+        {
+            "node": 4,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 60,
+            "node_type": "Family_Member",
+            "name": "Stephanie",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 44
+        },
+        {
+            "node": 4,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 29,
+            "node_type": "Family_Member",
+            "name": "Alex",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 45
+        },
+        {
+            "node": 5,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 41,
+            "node_type": "Family_Member",
+            "name": "Claudia",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 46
+        },
+        {
+            "node": 5,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 59,
+            "node_type": "Family_Member",
+            "name": "Melissa",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 47
+        },
+        {
+            "node": 5,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 44,
+            "node_type": "Family_Member",
+            "name": "Nicole",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 48
+        },
+        {
+            "node": 5,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 53,
+            "node_type": "Family_Member",
+            "name": "Patricia",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 49
+        },
+        {
+            "node": 6,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 35,
+            "node_type": "Family_Member",
+            "name": "Mark",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 50
+        },
+        {
+            "node": 6,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 58,
+            "node_type": "Family_Member",
+            "name": "Diana",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 51
+        },
+        {
+            "node": 6,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 47,
+            "node_type": "Family_Member",
+            "name": "Joseph",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 52
+        },
+        {
+            "node": 6,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 30,
+            "node_type": "Family_Member",
+            "name": "Barbara",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 53
+        },
+        {
+            "node": 8,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 49,
+            "node_type": "Family_Member",
+            "name": "John",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 54
+        },
+        {
+            "node": 8,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 26,
+            "node_type": "Family_Member",
+            "name": "Sandra",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 55
+        },
+        {
+            "node": 9,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 60,
+            "node_type": "Family_Member",
+            "name": "Lauren",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 56
+        },
+        {
+            "node": 9,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 56,
+            "node_type": "Family_Member",
+            "name": "Manuel",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 57
+        },
+        {
+            "node": 9,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 54,
+            "node_type": "Family_Member",
+            "name": "Kim",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 58
+        },
+        {
+            "node": 9,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 62,
+            "node_type": "Family_Member",
+            "name": "Linda",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 59
+        },
+        {
+            "node": 10,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 48,
+            "node_type": "Family_Member",
+            "name": "Jose",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 60
+        },
+        {
+            "node": 11,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 38,
+            "node_type": "Family_Member",
+            "name": "Angela",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 61
+        },
+        {
+            "node": 11,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 61,
+            "node_type": "Family_Member",
+            "name": "Jennifer",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 62
+        },
+        {
+            "node": 11,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 44,
+            "node_type": "Family_Member",
+            "name": "David",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 63
+        },
+        {
+            "node": 12,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 59,
+            "node_type": "Family_Member",
+            "name": "Julie",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 64
+        },
+        {
+            "node": 12,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 27,
+            "node_type": "Family_Member",
+            "name": "Rosa",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 65
+        },
+        {
+            "node": 12,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 26,
+            "node_type": "Family_Member",
+            "name": "Justin",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 66
+        },
+        {
+            "node": 13,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 62,
+            "node_type": "Family_Member",
+            "name": "Jeff",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 67
+        },
+        {
+            "node": 13,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 45,
+            "node_type": "Family_Member",
+            "name": "Michelle",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 68
+        },
+        {
+            "node": 14,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 53,
+            "node_type": "Family_Member",
+            "name": "Anna",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 69
+        },
+        {
+            "node": 14,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 30,
+            "node_type": "Family_Member",
+            "name": "Anthony",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 70
+        },
+        {
+            "node": 15,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 19,
+            "node_type": "Family_Member",
+            "name": "Sara",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 71
+        },
+        {
+            "node": 15,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 57,
+            "node_type": "Family_Member",
+            "name": "Angel",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 72
+        },
+        {
+            "node": 15,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 40,
+            "node_type": "Family_Member",
+            "name": "Mike",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 73
+        },
+        {
+            "node": 17,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 40,
+            "node_type": "Family_Member",
+            "name": "Brenda",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 74
+        },
+        {
+            "node": 17,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 24,
+            "node_type": "Family_Member",
+            "name": "Maria",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 75
+        },
+        {
+            "node": 17,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 38,
+            "node_type": "Family_Member",
+            "name": "Karen",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 76
+        },
+        {
+            "node": 17,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 62,
+            "node_type": "Family_Member",
+            "name": "Lisa",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 77
+        },
+        {
+            "node": 18,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 19,
+            "node_type": "Family_Member",
+            "name": "Monica",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 78
+        },
+        {
+            "node": 18,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 39,
+            "node_type": "Family_Member",
+            "name": "Jesus",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 79
+        },
+        {
+            "node": 18,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 19,
+            "node_type": "Family_Member",
+            "name": "Matthew",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 80
+        },
+        {
+            "node": 19,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 41,
+            "node_type": "Family_Member",
+            "name": "Ana",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 81
+        },
+        {
+            "node": 19,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 31,
+            "node_type": "Family_Member",
+            "name": "Laura",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 82
+        },
+        {
+            "node": 19,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 60,
+            "node_type": "Family_Member",
+            "name": "Andrew",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 83
+        },
+        {
+            "node": 19,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 46,
+            "node_type": "Family_Member",
+            "name": "Mary",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 84
+        },
+        {
+            "node": 20,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 21,
+            "node_type": "Family_Member",
+            "name": "Elizabeth",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 85
+        },
+        {
+            "node": 20,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 53,
+            "node_type": "Family_Member",
+            "name": "Kevin",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 86
+        },
+        {
+            "node": 22,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 63,
+            "node_type": "Family_Member",
+            "name": "Jorge",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 87
+        },
+        {
+            "node": 23,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 27,
+            "node_type": "Family_Member",
+            "name": "Steve",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 88
+        },
+        {
+            "node": 23,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 49,
+            "node_type": "Family_Member",
+            "name": "Susan",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 89
+        },
+        {
+            "node": 23,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 20,
+            "node_type": "Family_Member",
+            "name": "Joe",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 90
+        },
+        {
+            "node": 24,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 41,
+            "node_type": "Family_Member",
+            "name": "Michael",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 91
+        },
+        {
+            "node": 24,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 49,
+            "node_type": "Family_Member",
+            "name": "Jason",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 92
+        },
+        {
+            "node": 25,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 62,
+            "node_type": "Family_Member",
+            "name": "Miguel",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 93
+        },
+        {
+            "node": 26,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 20,
+            "node_type": "Family_Member",
+            "name": "Amy",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 94
+        },
+        {
+            "node": 26,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 54,
+            "node_type": "Family_Member",
+            "name": "Daniel",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 95
+        },
+        {
+            "node": 27,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 20,
+            "node_type": "Family_Member",
+            "name": "Nancy",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 96
+        },
+        {
+            "node": 27,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 18,
+            "node_type": "Family_Member",
+            "name": "Carmen",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 97
+        },
+        {
+            "node": 27,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 27,
+            "node_type": "Family_Member",
+            "name": "Rachel",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 98
+        },
+        {
+            "node": 27,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 40,
+            "node_type": "Family_Member",
+            "name": "Gloria",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 99
+        },
+        {
+            "node": 28,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 58,
+            "node_type": "Family_Member",
+            "name": "Ryan",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 100
+        },
+        {
+            "node": 29,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 46,
+            "node_type": "Family_Member",
+            "name": "Chris",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 101
+        },
+        {
+            "node": 29,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 18,
+            "node_type": "Family_Member",
+            "name": "Sarah",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 102
+        },
+        {
+            "node": 30,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 29,
+            "node_type": "Family_Member",
+            "name": "Victor",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 103
+        },
+        {
+            "node": 30,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 28,
+            "node_type": "Family_Member",
+            "name": "Eric",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 104
+        },
+        {
+            "node": 30,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 24,
+            "node_type": "Family_Member",
+            "name": "Jonathan",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 105
+        },
+        {
+            "node": 31,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 46,
+            "node_type": "Family_Member",
+            "name": "Emily",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 106
+        },
+        {
+            "node": 31,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 38,
+            "node_type": "Family_Member",
+            "name": "Juan",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 107
+        },
+        {
+            "node": 31,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "hot",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfless",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 54,
+            "node_type": "Family_Member",
+            "name": "Kelly",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 108
+        },
+        {
+            "node": 31,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 39,
+            "node_type": "Family_Member",
+            "name": "James",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 109
+        },
+        {
+            "node": 32,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Unemotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 57,
+            "node_type": "Family_Member",
+            "name": "Richard",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 110
+        },
+        {
+            "node": 32,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Environmentalist",
+            "frugality": "Frugal",
+            "age": 59,
+            "node_type": "Family_Member",
+            "name": "William",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 111
+        },
+        {
+            "node": 32,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cool",
+            "N2": "Easygoing",
+            "N5": "Self-controlled",
+            "E3": "Passive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Cautious",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 31,
+            "node_type": "Family_Member",
+            "name": "Martha",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 112
+        },
+        {
+            "node": 32,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "cold",
+            "N2": "Easily-angered",
+            "N5": "Self-controlled",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Uncooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 22,
+            "node_type": "Family_Member",
+            "name": "Ashley",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 113
+        },
+        {
+            "node": 33,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "warm",
+            "N2": "Easygoing",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Wasteful",
+            "age": 38,
+            "node_type": "Family_Member",
+            "name": "Amanda",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 114
+        },
+        {
+            "node": 33,
+            "happiness_level": 100,
+            "degree_choice": 100,
+            "heater_preference": "neutral",
+            "N2": "Easily-angered",
+            "N5": "Impulsive",
+            "E3": "Assertive",
+            "O3": "Emotional",
+            "A3": "Selfish",
+            "A4": "Cooperative",
+            "C6": "Careless",
+            "environmentalism": "Not environmentalist",
+            "frugality": "Frugal",
+            "age": 41,
+            "node_type": "Family_Member",
+            "name": "Carlos",
+            "last_3_suggestions": [
+                null,
+                null,
+                null
+            ],
+            "id": 115
+        }
+    ],
+    "links": [
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 0,
+            "target": 1
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 0,
+            "target": 2
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 0,
+            "target": 3
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 0,
+            "target": 4
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 0,
+            "target": 5
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 0,
+            "target": 6
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 7
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 8
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 10
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 0,
+            "target": 11
+        },
+        {
+            "weight": 1,
+            "relation": "friend",
+            "source": 0,
+            "target": 12
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 0,
+            "target": 13
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 17
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 19
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 21
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 0,
+            "target": 31
+        },
+        {
+            "relation": "family",
+            "source": 0,
+            "target": 34
+        },
+        {
+            "weight": 6,
+            "relation": "friend",
+            "source": 1,
+            "target": 2
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 1,
+            "target": 3
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 1,
+            "target": 7
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 1,
+            "target": 13
+        },
+        {
+            "weight": 1,
+            "relation": "friend",
+            "source": 1,
+            "target": 17
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 1,
+            "target": 19
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 1,
+            "target": 21
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 1,
+            "target": 30
+        },
+        {
+            "relation": "family",
+            "source": 1,
+            "target": 35
+        },
+        {
+            "relation": "family",
+            "source": 1,
+            "target": 36
+        },
+        {
+            "relation": "family",
+            "source": 1,
+            "target": 37
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 2,
+            "target": 3
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 2,
+            "target": 7
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 2,
+            "target": 8
+        },
+        {
+            "weight": 1,
+            "relation": "friend",
+            "source": 2,
+            "target": 9
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 2,
+            "target": 13
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 2,
+            "target": 27
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 2,
+            "target": 28
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 2,
+            "target": 32
+        },
+        {
+            "relation": "family",
+            "source": 2,
+            "target": 38
+        },
+        {
+            "relation": "family",
+            "source": 2,
+            "target": 39
+        },
+        {
+            "relation": "family",
+            "source": 2,
+            "target": 40
+        },
+        {
+            "relation": "family",
+            "source": 2,
+            "target": 41
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 3,
+            "target": 7
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 3,
+            "target": 12
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 3,
+            "target": 13
+        },
+        {
+            "relation": "family",
+            "source": 3,
+            "target": 42
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 4,
+            "target": 6
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 4,
+            "target": 10
+        },
+        {
+            "relation": "family",
+            "source": 4,
+            "target": 43
+        },
+        {
+            "relation": "family",
+            "source": 4,
+            "target": 44
+        },
+        {
+            "relation": "family",
+            "source": 4,
+            "target": 45
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 5,
+            "target": 6
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 5,
+            "target": 10
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 5,
+            "target": 16
+        },
+        {
+            "relation": "family",
+            "source": 5,
+            "target": 46
+        },
+        {
+            "relation": "family",
+            "source": 5,
+            "target": 47
+        },
+        {
+            "relation": "family",
+            "source": 5,
+            "target": 48
+        },
+        {
+            "relation": "family",
+            "source": 5,
+            "target": 49
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 6,
+            "target": 16
+        },
+        {
+            "relation": "family",
+            "source": 6,
+            "target": 50
+        },
+        {
+            "relation": "family",
+            "source": 6,
+            "target": 51
+        },
+        {
+            "relation": "family",
+            "source": 6,
+            "target": 52
+        },
+        {
+            "relation": "family",
+            "source": 6,
+            "target": 53
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 8,
+            "target": 30
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 8,
+            "target": 32
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 8,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 8,
+            "target": 54
+        },
+        {
+            "relation": "family",
+            "source": 8,
+            "target": 55
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 9,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 9,
+            "target": 56
+        },
+        {
+            "relation": "family",
+            "source": 9,
+            "target": 57
+        },
+        {
+            "relation": "family",
+            "source": 9,
+            "target": 58
+        },
+        {
+            "relation": "family",
+            "source": 9,
+            "target": 59
+        },
+        {
+            "relation": "family",
+            "source": 10,
+            "target": 60
+        },
+        {
+            "relation": "family",
+            "source": 11,
+            "target": 61
+        },
+        {
+            "relation": "family",
+            "source": 11,
+            "target": 62
+        },
+        {
+            "relation": "family",
+            "source": 11,
+            "target": 63
+        },
+        {
+            "relation": "family",
+            "source": 12,
+            "target": 64
+        },
+        {
+            "relation": "family",
+            "source": 12,
+            "target": 65
+        },
+        {
+            "relation": "family",
+            "source": 12,
+            "target": 66
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 13,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 13,
+            "target": 67
+        },
+        {
+            "relation": "family",
+            "source": 13,
+            "target": 68
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 14,
+            "target": 32
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 14,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 14,
+            "target": 69
+        },
+        {
+            "relation": "family",
+            "source": 14,
+            "target": 70
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 15,
+            "target": 32
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 15,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 15,
+            "target": 71
+        },
+        {
+            "relation": "family",
+            "source": 15,
+            "target": 72
+        },
+        {
+            "relation": "family",
+            "source": 15,
+            "target": 73
+        },
+        {
+            "relation": "family",
+            "source": 17,
+            "target": 74
+        },
+        {
+            "relation": "family",
+            "source": 17,
+            "target": 75
+        },
+        {
+            "relation": "family",
+            "source": 17,
+            "target": 76
+        },
+        {
+            "relation": "family",
+            "source": 17,
+            "target": 77
+        },
+        {
+            "weight": 1,
+            "relation": "friend",
+            "source": 18,
+            "target": 32
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 18,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 18,
+            "target": 78
+        },
+        {
+            "relation": "family",
+            "source": 18,
+            "target": 79
+        },
+        {
+            "relation": "family",
+            "source": 18,
+            "target": 80
+        },
+        {
+            "weight": 1,
+            "relation": "friend",
+            "source": 19,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 19,
+            "target": 81
+        },
+        {
+            "relation": "family",
+            "source": 19,
+            "target": 82
+        },
+        {
+            "relation": "family",
+            "source": 19,
+            "target": 83
+        },
+        {
+            "relation": "family",
+            "source": 19,
+            "target": 84
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 20,
+            "target": 32
+        },
+        {
+            "weight": 1,
+            "relation": "friend",
+            "source": 20,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 20,
+            "target": 85
+        },
+        {
+            "relation": "family",
+            "source": 20,
+            "target": 86
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 22,
+            "target": 32
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 22,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 22,
+            "target": 87
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 23,
+            "target": 25
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 23,
+            "target": 27
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 23,
+            "target": 29
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 23,
+            "target": 32
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 23,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 23,
+            "target": 88
+        },
+        {
+            "relation": "family",
+            "source": 23,
+            "target": 89
+        },
+        {
+            "relation": "family",
+            "source": 23,
+            "target": 90
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 24,
+            "target": 25
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 24,
+            "target": 27
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 24,
+            "target": 31
+        },
+        {
+            "relation": "family",
+            "source": 24,
+            "target": 91
+        },
+        {
+            "relation": "family",
+            "source": 24,
+            "target": 92
+        },
+        {
+            "weight": 7,
+            "relation": "friend",
+            "source": 25,
+            "target": 31
+        },
+        {
+            "relation": "family",
+            "source": 25,
+            "target": 93
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 26,
+            "target": 29
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 26,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 26,
+            "target": 94
+        },
+        {
+            "relation": "family",
+            "source": 26,
+            "target": 95
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 27,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 27,
+            "target": 96
+        },
+        {
+            "relation": "family",
+            "source": 27,
+            "target": 97
+        },
+        {
+            "relation": "family",
+            "source": 27,
+            "target": 98
+        },
+        {
+            "relation": "family",
+            "source": 27,
+            "target": 99
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 28,
+            "target": 31
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 28,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 28,
+            "target": 100
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 29,
+            "target": 32
+        },
+        {
+            "weight": 2,
+            "relation": "friend",
+            "source": 29,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 29,
+            "target": 101
+        },
+        {
+            "relation": "family",
+            "source": 29,
+            "target": 102
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 30,
+            "target": 32
+        },
+        {
+            "weight": 3,
+            "relation": "friend",
+            "source": 30,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 30,
+            "target": 103
+        },
+        {
+            "relation": "family",
+            "source": 30,
+            "target": 104
+        },
+        {
+            "relation": "family",
+            "source": 30,
+            "target": 105
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 31,
+            "target": 32
+        },
+        {
+            "weight": 4,
+            "relation": "friend",
+            "source": 31,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 31,
+            "target": 106
+        },
+        {
+            "relation": "family",
+            "source": 31,
+            "target": 107
+        },
+        {
+            "relation": "family",
+            "source": 31,
+            "target": 108
+        },
+        {
+            "relation": "family",
+            "source": 31,
+            "target": 109
+        },
+        {
+            "weight": 5,
+            "relation": "friend",
+            "source": 32,
+            "target": 33
+        },
+        {
+            "relation": "family",
+            "source": 32,
+            "target": 110
+        },
+        {
+            "relation": "family",
+            "source": 32,
+            "target": 111
+        },
+        {
+            "relation": "family",
+            "source": 32,
+            "target": 112
+        },
+        {
+            "relation": "family",
+            "source": 32,
+            "target": 113
+        },
+        {
+            "relation": "family",
+            "source": 33,
+            "target": 114
+        },
+        {
+            "relation": "family",
+            "source": 33,
+            "target": 115
+        },
+        {
+            "relation": "family",
+            "source": 35,
+            "target": 36
+        },
+        {
+            "relation": "family",
+            "source": 35,
+            "target": 37
+        },
+        {
+            "relation": "family",
+            "source": 36,
+            "target": 37
+        },
+        {
+            "relation": "family",
+            "source": 38,
+            "target": 39
+        },
+        {
+            "relation": "family",
+            "source": 38,
+            "target": 40
+        },
+        {
+            "relation": "family",
+            "source": 38,
+            "target": 41
+        },
+        {
+            "relation": "family",
+            "source": 39,
+            "target": 40
+        },
+        {
+            "relation": "family",
+            "source": 39,
+            "target": 41
+        },
+        {
+            "relation": "family",
+            "source": 40,
+            "target": 41
+        },
+        {
+            "relation": "family",
+            "source": 43,
+            "target": 44
+        },
+        {
+            "relation": "family",
+            "source": 43,
+            "target": 45
+        },
+        {
+            "relation": "family",
+            "source": 44,
+            "target": 45
+        },
+        {
+            "relation": "family",
+            "source": 46,
+            "target": 47
+        },
+        {
+            "relation": "family",
+            "source": 46,
+            "target": 48
+        },
+        {
+            "relation": "family",
+            "source": 46,
+            "target": 49
+        },
+        {
+            "relation": "family",
+            "source": 47,
+            "target": 48
+        },
+        {
+            "relation": "family",
+            "source": 47,
+            "target": 49
+        },
+        {
+            "relation": "family",
+            "source": 48,
+            "target": 49
+        },
+        {
+            "relation": "family",
+            "source": 50,
+            "target": 51
+        },
+        {
+            "relation": "family",
+            "source": 50,
+            "target": 52
+        },
+        {
+            "relation": "family",
+            "source": 50,
+            "target": 53
+        },
+        {
+            "relation": "family",
+            "source": 51,
+            "target": 52
+        },
+        {
+            "relation": "family",
+            "source": 51,
+            "target": 53
+        },
+        {
+            "relation": "family",
+            "source": 52,
+            "target": 53
+        },
+        {
+            "relation": "family",
+            "source": 54,
+            "target": 55
+        },
+        {
+            "relation": "family",
+            "source": 56,
+            "target": 57
+        },
+        {
+            "relation": "family",
+            "source": 56,
+            "target": 58
+        },
+        {
+            "relation": "family",
+            "source": 56,
+            "target": 59
+        },
+        {
+            "relation": "family",
+            "source": 57,
+            "target": 58
+        },
+        {
+            "relation": "family",
+            "source": 57,
+            "target": 59
+        },
+        {
+            "relation": "family",
+            "source": 58,
+            "target": 59
+        },
+        {
+            "relation": "family",
+            "source": 61,
+            "target": 62
+        },
+        {
+            "relation": "family",
+            "source": 61,
+            "target": 63
+        },
+        {
+            "relation": "family",
+            "source": 62,
+            "target": 63
+        },
+        {
+            "relation": "family",
+            "source": 64,
+            "target": 65
+        },
+        {
+            "relation": "family",
+            "source": 64,
+            "target": 66
+        },
+        {
+            "relation": "family",
+            "source": 65,
+            "target": 66
+        },
+        {
+            "relation": "family",
+            "source": 67,
+            "target": 68
+        },
+        {
+            "relation": "family",
+            "source": 69,
+            "target": 70
+        },
+        {
+            "relation": "family",
+            "source": 71,
+            "target": 72
+        },
+        {
+            "relation": "family",
+            "source": 71,
+            "target": 73
+        },
+        {
+            "relation": "family",
+            "source": 72,
+            "target": 73
+        },
+        {
+            "relation": "family",
+            "source": 74,
+            "target": 75
+        },
+        {
+            "relation": "family",
+            "source": 74,
+            "target": 76
+        },
+        {
+            "relation": "family",
+            "source": 74,
+            "target": 77
+        },
+        {
+            "relation": "family",
+            "source": 75,
+            "target": 76
+        },
+        {
+            "relation": "family",
+            "source": 75,
+            "target": 77
+        },
+        {
+            "relation": "family",
+            "source": 76,
+            "target": 77
+        },
+        {
+            "relation": "family",
+            "source": 78,
+            "target": 79
+        },
+        {
+            "relation": "family",
+            "source": 78,
+            "target": 80
+        },
+        {
+            "relation": "family",
+            "source": 79,
+            "target": 80
+        },
+        {
+            "relation": "family",
+            "source": 81,
+            "target": 82
+        },
+        {
+            "relation": "family",
+            "source": 81,
+            "target": 83
+        },
+        {
+            "relation": "family",
+            "source": 81,
+            "target": 84
+        },
+        {
+            "relation": "family",
+            "source": 82,
+            "target": 83
+        },
+        {
+            "relation": "family",
+            "source": 82,
+            "target": 84
+        },
+        {
+            "relation": "family",
+            "source": 83,
+            "target": 84
+        },
+        {
+            "relation": "family",
+            "source": 85,
+            "target": 86
+        },
+        {
+            "relation": "family",
+            "source": 88,
+            "target": 89
+        },
+        {
+            "relation": "family",
+            "source": 88,
+            "target": 90
+        },
+        {
+            "relation": "family",
+            "source": 89,
+            "target": 90
+        },
+        {
+            "relation": "family",
+            "source": 91,
+            "target": 92
+        },
+        {
+            "relation": "family",
+            "source": 94,
+            "target": 95
+        },
+        {
+            "relation": "family",
+            "source": 96,
+            "target": 97
+        },
+        {
+            "relation": "family",
+            "source": 96,
+            "target": 98
+        },
+        {
+            "relation": "family",
+            "source": 96,
+            "target": 99
+        },
+        {
+            "relation": "family",
+            "source": 97,
+            "target": 98
+        },
+        {
+            "relation": "family",
+            "source": 97,
+            "target": 99
+        },
+        {
+            "relation": "family",
+            "source": 98,
+            "target": 99
+        },
+        {
+            "relation": "family",
+            "source": 101,
+            "target": 102
+        },
+        {
+            "relation": "family",
+            "source": 103,
+            "target": 104
+        },
+        {
+            "relation": "family",
+            "source": 103,
+            "target": 105
+        },
+        {
+            "relation": "family",
+            "source": 104,
+            "target": 105
+        },
+        {
+            "relation": "family",
+            "source": 106,
+            "target": 107
+        },
+        {
+            "relation": "family",
+            "source": 106,
+            "target": 108
+        },
+        {
+            "relation": "family",
+            "source": 106,
+            "target": 109
+        },
+        {
+            "relation": "family",
+            "source": 107,
+            "target": 108
+        },
+        {
+            "relation": "family",
+            "source": 107,
+            "target": 109
+        },
+        {
+            "relation": "family",
+            "source": 108,
+            "target": 109
+        },
+        {
+            "relation": "family",
+            "source": 110,
+            "target": 111
+        },
+        {
+            "relation": "family",
+            "source": 110,
+            "target": 112
+        },
+        {
+            "relation": "family",
+            "source": 110,
+            "target": 113
+        },
+        {
+            "relation": "family",
+            "source": 111,
+            "target": 112
+        },
+        {
+            "relation": "family",
+            "source": 111,
+            "target": 113
+        },
+        {
+            "relation": "family",
+            "source": 112,
+            "target": 113
+        },
+        {
+            "relation": "family",
+            "source": 114,
+            "target": 115
+        }
+    ]
+}

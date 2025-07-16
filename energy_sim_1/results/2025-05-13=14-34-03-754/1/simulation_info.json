@@ -1,0 +1,16 @@
+{
+    "date": "2025-05-13",
+    "name": "simple-energy-modeling-1",
+    "simulation_duration": "12:46:07.762872",
+    "start_time": "2025-05-13 14:34:03.754306",
+    "end_time": "2025-05-14 03:20:11.517178",
+    "epoch_num": 31,
+    "early_stop": false,
+    "actual_epochs": 31,
+    "snapshot_period": 1,
+    "states": [
+        "Family_Rep"
+    ],
+    "simulation_no": "1",
+    "directory_name": "2025-05-13=14-34-03-754"
+}
