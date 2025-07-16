@@ -2,9 +2,9 @@
 
 In this repository, we provide the code for the simulation and analysis stages of the study, as well as the important result files used in the analysis.
 
-- Initial graph can be found on: [families3.json](energy_sim_1\families3.json)
-- List of families can be found on: [family_members3.json](energy_sim_1\family_members3.json)
-- Graph data saved by Crowd in each snapshot period and the LLM query outputs are not uploaded to the repository due to their large file sizes. Other data files can be found on: [energy_sim_1\results](energy_sim_1\results)
+- Initial graph can be found on: [families3.json](energy_sim_1/families3.json)
+- List of families can be found on: [family_members3.json](energy_sim_1/family_members3.json)
+- Graph data saved by Crowd in each snapshot period and the LLM query outputs are not uploaded to the repository due to their large file sizes. Other data files can be found on: [energy_sim_1\results](energy_sim_1/results)
 
 # Steps to set up
 
