@@ -25,16 +25,18 @@ Upload the wheel file and _negotiating_comfort.ipynb_ to Google Drive and follow
 ## Citation
 
 If you find this repository helpful, please cite the following paper:
-`    @misc{rende2025negotiatingcomfortsimulatingpersonalitydriven,
-        title={Negotiating Comfort: Simulating Personality-Driven LLM Agents in Shared Residential Social Networks}, 
+
+```
+@misc{rende2025negotiatingcomfortsimulatingpersonalitydriven,
+        title={Negotiating Comfort: Simulating Personality-Driven LLM Agents in Shared Residential Social Networks},
         author={Ann Nedime Nese Rende and Tolga Yilmaz and Özgür Ulusoy},
         year={2025},
         eprint={2507.09657},
         archivePrefix={arXiv},
         primaryClass={cs.SI},
-        url={https://arxiv.org/abs/2507.09657}, 
+        url={https://arxiv.org/abs/2507.09657},
     }
-   `
+```
 
 Additionally, consider citing the following paper if you use Crowd:
 
